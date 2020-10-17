@@ -78,7 +78,7 @@ public class DisplayActivity extends AppCompatActivity {
             String line;
             StringBuffer buffer =new StringBuffer();
             while((line=input1.readLine())!=null){
-                salt= salt+line;
+                salt= line;
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -88,7 +88,7 @@ public class DisplayActivity extends AppCompatActivity {
             String line;
             StringBuffer buffer =new StringBuffer();
             while((line=input1.readLine())!=null){
-                iv= iv+line;
+                iv= line;
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -98,7 +98,7 @@ public class DisplayActivity extends AppCompatActivity {
             String line;
             StringBuffer buffer =new StringBuffer();
             while((line=input1.readLine())!=null){
-                message= message+line;
+                message= line;
             }
         } catch (IOException e) {
             e.printStackTrace();
